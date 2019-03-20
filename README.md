@@ -1,3 +1,26 @@
+## kinesis_manager (melodic) - 2.0.0-0
+
+The packages in the `kinesis_manager` repository were released into the `melodic` distro by running `/usr/local/bin/bloom-release kinesis_manager --track melodic --rosdistro melodic -e` on `Wed, 20 Mar 2019 00:40:34 -0000`
+
+The `kinesis_manager` package was released.
+
+Version of package(s) in repository `kinesis_manager`:
+
+- upstream repository: https://github.com/aws-robotics/kinesisvideo-common.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `2.0.0-0`
+
+Versions of tools used:
+
+- bloom version: `0.7.2`
+- catkin_pkg version: `0.4.9`
+- rosdep version: `0.15.1`
+- rosdistro version: `0.7.0`
+- vcstools version: `0.1.40`
+
+
 ## kinesis_manager (kinetic) - 2.0.0-0
 
 The packages in the `kinesis_manager` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release kinesis_manager --track kinetic --rosdistro kinetic -e` on `Tue, 19 Mar 2019 23:29:12 -0000`
