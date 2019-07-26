@@ -1,0 +1,12 @@
+Source: ros-melodic-kinesis-manager
+Section: misc
+Priority: extra
+Maintainer: AWS RoboMaker <ros-contributions@amazon.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, curl, google-mock, libboost-all-dev, libcurl4-openssl-dev, libgtest-dev, liblog4cplus-dev, libssl-dev, pkg-config, ros-melodic-aws-common, ros-melodic-catkin
+Homepage: http://wiki.ros.org/kinesis_manager
+Standards-Version: 3.9.2
+
+Package: ros-melodic-kinesis-manager
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, curl, libboost-all-dev, libcurl4-openssl-dev, liblog4cplus-dev, libssl-dev, ros-melodic-aws-common
+Description: AWS Kinesis stream management library intended for use with the Kinesis Video Producer SDK
