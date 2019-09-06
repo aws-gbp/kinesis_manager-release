@@ -1,0 +1,12 @@
+Source: ros-dashing-kinesis-manager
+Section: misc
+Priority: extra
+Maintainer: AWS RoboMaker <ros-contributions@amazon.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, curl, libboost-all-dev, libcurl4-openssl-dev, liblog4cplus-dev, libssl-dev, pkg-config, ros-dashing-ament-cmake-gmock, ros-dashing-ament-cmake-gtest, ros-dashing-aws-common, ros-dashing-ros-workspace
+Homepage: http://wiki.ros.org/kinesis_manager
+Standards-Version: 3.9.2
+
+Package: ros-dashing-kinesis-manager
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, curl, libboost-all-dev, libcurl4-openssl-dev, liblog4cplus-dev, libssl-dev, ros-dashing-aws-common, ros-dashing-ros-workspace
+Description: AWS Kinesis stream management library intended for use with the Kinesis Video Producer SDK
