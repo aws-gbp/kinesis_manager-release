@@ -1,1 +1,1 @@
-{"base": "3805c51", "parent": "debian/melodic/kinesis_manager", "previous": "515702a", "trim": "", "trimbase": ""}
+{"trim": "", "base": "c588024", "trimbase": "", "parent": "debian/melodic/kinesis_manager", "previous": "d05cd4d"}
