@@ -1,1 +1,1 @@
-{"base": "c49a259", "parent": "debian/kinetic/kinesis_manager", "previous": "3f8f23d", "trim": "", "trimbase": ""}
+{"trim": "", "base": "3a66b32", "trimbase": "", "parent": "debian/kinetic/kinesis_manager", "previous": "5b70b88"}
